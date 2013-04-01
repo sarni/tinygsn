@@ -1,4 +1,4 @@
-This page lists all the available wrappers in TinyGSN currently. 
+#summary This page lists all the available wrappers in TinyGSN currently.
 
 = Details =
 
