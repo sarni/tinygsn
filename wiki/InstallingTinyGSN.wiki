@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Step-by-step to install the application
 
 = Introduction =
 
