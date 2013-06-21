@@ -1,0 +1,3 @@
+Copy:
+1. RestStreamHanlder.java, AndroidPushDelivery.java and gcm folder to gsn.http.rest
+2. gcm-server.jar to lib folder
