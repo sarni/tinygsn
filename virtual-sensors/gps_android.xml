@@ -1,0 +1,28 @@
+<virtual-sensor name="gps">
+	<processing-class>
+		<class-name>gsn.vsensor.BridgeVirtualSensor</class-name>
+		<init-params />
+		<output-structure>
+			<field name="latitude" type="double"/>
+			<field name="longitude" type="double" />
+		</output-structure>
+	</processing-class>
+	<description></description>
+
+	<life-cycle pool-size="10" />
+	<addressing>
+		<predicate key="type">test-sensor</predicate>
+	</addressing>
+	<storage history-size="1m" />
+	<streams>
+		<stream name="sensor1">
+			<source alias="source1" storage-size="1" sampling-rate="1">
+				<address wrapper="gps-test">
+					<predicate key="rate">1000</predicate>
+				</address>
+				<query>select * from wrapper</query>
+			</source>
+			<query>select * from source1</query>
+		</stream>
+	</streams>
+</virtual-sensor> 
