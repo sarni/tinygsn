@@ -1,0 +1,16 @@
+# Details #
+
+Wrapper list summary:
+
+accelerometer=tinygsn.model.wrappers.AndroidAccelerometerWrapper
+light=tinygsn.model.wrappers.AndroidLightWrapper
+orientation=tinygsn.model.wrappers.AndroidOrientationWrapper
+magnetic=tinygsn.model.wrappers.AndroidMagneticFieldWrapper
+proximity=tinygsn.model.wrappers.AndroidProximityWrapper
+gravity=tinygsn.model.wrappers.AndroidGravityWrapper
+gyroscope=tinygsn.model.wrappers.AndroidGyroscopeWrapper
+gps=tinygsn.model.wrappers.AndroidGPSWrapper
+fakeGPS=tinygsn.model.wrappers.AndroidFakeGPSWrapper
+fakeTemperature=tinygsn.model.wrappers.AndroidFakeTemperatureWrapper
+linearAcceleration=tinygsn.model.wrappers.AndroidLinearAccelerationWrapper
+rotationvector=tinygsn.model.wrappers.AndroidRotationVectorWrapper
